@@ -13,8 +13,12 @@ export const Footer = () => {
             const response = await subscribeHelper(email);
             setMessage(response.message || 'Suscripción exitosa!');
             setEmail('');
-        }catch (error){
-            setMessage(error.message || 'Ocurrió un error al suscribirse.');
+        }catch(error){
+            if (typeof error === 'object' && error !== null && 'message' in error) {
+                setMessage((error as { message?: string }).message || 'Ocurrió un error al suscribirse.');
+            } else {
+                setMessage('Ocurrió un error al suscribirse.');
+            }
         }
     }
 

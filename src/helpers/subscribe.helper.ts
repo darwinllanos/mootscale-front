@@ -1,4 +1,4 @@
-import { ISubscribe } from "../interfaces/types";
+import type { ISubscribe } from "../interfaces/types";
 
 export const subscribeHelper = async (email: string): Promise<ISubscribe> => {
     const res = await fetch('http://localhost:3000/subscribe', {
