@@ -105,7 +105,7 @@ function App() {
         precioMootscale: 44000,
       },
       {
-        uriImage: "/images/KTM RC9 NEGRA.png",
+        uriImage: "/images/KTM RC8 NEGRA.png",
         nombreMoto: "KTM RC8",
         comentario: "Una moto muy buena y sobre todo económica",
         puntuacion: 5,

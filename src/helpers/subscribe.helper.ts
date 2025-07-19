@@ -1,7 +1,7 @@
 import type { ISubscribe } from "../interfaces/types";
 
 export const subscribeHelper = async (email: string): Promise<ISubscribe> => {
-    const res = await fetch('http://localhost:3000/subscribe', {
+    const res = await fetch('https://mootscale-backend.onrender.com/subscribe', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
