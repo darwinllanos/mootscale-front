@@ -12,6 +12,7 @@ import NotFound from './notfound'
 import SliderHome from './components/SliderHome'
 import CategoryComponent from './components/Category'
 import Footer from './components/Footer'
+import SliderProduct from './components/SliderProduct'
 
 function App() {
 
@@ -135,15 +136,20 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
 
-        <section>
-          <SliderHome />
-        </section>
-        <section>
-          <CategoryComponent />
-        </section>
-        <section>
-          <Footer />
-        </section>
+        <main>
+          <section>
+            <SliderHome />
+          </section>
+          <section>
+            <CategoryComponent />
+          </section>
+          <section>
+            <SliderProduct />
+          </section>
+          <section>
+            <Footer />
+          </section>
+        </main>
     </>
   )
 }
