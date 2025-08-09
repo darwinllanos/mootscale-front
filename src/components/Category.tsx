@@ -2,7 +2,7 @@ import React from 'react';
 
 const CategoryComponent: React.FC = () => {
 
-    const categorias: string[] = ["/icons/camara.png", "/icons/casco.png", "/icons/ropa.png", "/icons/guante.png", "/icons/moto.png"]
+    const categorias: string[] = ["/icons/camara.webp", "/icons/casco.webp", "/icons/ropa.webp", "/icons/guante.webp", "/icons/moto.webp"]
     return(
         <div className='relative w-full bg-blue-500 overflow-hidden shadow-[0_10px_20px_rgba(0,0,0,0.15)]'>
             <div className="absolute top-0 left-0 w-full h-16 drop-shadow-black">

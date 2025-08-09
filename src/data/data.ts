@@ -2,7 +2,7 @@ import type { IMotorcycle } from "../interfaces/types"
 
 export const motorcycleData: IMotorcycle[] = [
       {
-        uriImage: "/images/BMW S1000RR BLANCO.png",
+        uriImage: "/images/BMW S1000RR BLANCO.webp",
         nombreMoto: "BMW S1000RR",
         comentario: "Muy bonita la moto me gusto bastante",
         puntuacion: 5,
@@ -10,7 +10,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 94360,
       },
       {
-        uriImage: "/images/APRILIA.png",
+        uriImage: "/images/APRILIA.webp",
         nombreMoto: "Aprilia RSVA RR1000",
         comentario: "El diseno escarchado de la moto es genial",
         puntuacion: 4,
@@ -18,7 +18,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 93234,
       },
       {
-        uriImage: "/images/YAMAHA R1 AZUL.png",
+        uriImage: "/images/YAMAHA R1 AZUL.webp",
         nombreMoto: "YAMAHA R1",
         comentario: "Excelente relación calidad-precio, la moto es genial",
         puntuacion: 5,
@@ -26,7 +26,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 109876,
       },
       {
-        uriImage: "/images/KTM SUPERDUKE 1290 NEGRA.png",
+        uriImage: "/images/KTM SUPERDUKE 1290 NEGRA.webp",
         nombreMoto: "KTM SUPERDUKE 1290",
         comentario: "Gracias por la gestion, esta bonita la moto",
         puntuacion: 5,
@@ -34,7 +34,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 90325,
       },
       {
-        uriImage: "/images/KTM SUPERDUKE 1290 NARANJA.png",
+        uriImage: "/images/KTM SUPERDUKE 1290 GRIS.webp",
         nombreMoto: "KTM SUPERDUKE 1290",
         comentario: "Me encanato la moto, es muy bonita",
         puntuacion: 4,
@@ -42,7 +42,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 90325,
       },
       {
-        uriImage: "/images/Kawasaki ZH2R.png",
+        uriImage: "/images/Kawasaki ZH2R.webp",
         nombreMoto: "KAWASAKY H2R",
         comentario: "La mejor compra que pueden hacer, es una moto espectacular",
         puntuacion: 5,
@@ -50,7 +50,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 71140,
       },
       {
-        uriImage: "/images/KAWASAKY NINJA 400.png",
+        uriImage: "/images/KAWASAKY NINJA 400.webp",
         nombreMoto: "KAWASAKY NINJA 400",
         comentario: "Me sorprendio el detalle de la moto, es muy bonita",
         puntuacion: 4,
@@ -58,7 +58,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 88433,
       },
       {
-        uriImage: "/images/HONDA CB1000RR ROJA.png",
+        uriImage: "/images/HONDA CB1000RR ROJA.webp",
         nombreMoto: "HONDA CBR1000RR",
         comentario: "Son muy similares a la real, me gusta mucho",
         puntuacion: 4,
@@ -66,7 +66,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 84660,
       },
       {
-        uriImage: "/images/HONDA CB1000RR AZUL.png",
+        uriImage: "/images/HONDA CB1000RR AZUL.webp",
         nombreMoto: "HONDA CBR1000RR",
         comentario: "Ya tengo la moto de mis sueños a escala, ahora voy por la real",
         puntuacion: 5,
@@ -74,7 +74,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 84660,
       },
       {
-        uriImage: "/images/DUCATI PANIGALE V4.png",
+        uriImage: "/images/DUCATI PANIGALE V4.webp",
         nombreMoto: "DUCATI PANIGALE V4",
         comentario: "Boff, esa moto es mas bonita en persona",
         puntuacion: 5,
@@ -82,7 +82,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 110210,
       },
       {
-        uriImage: "/images/KTM RC8 BLANCA.png",
+        uriImage: "/images/KTM RC8 BLANCA.webp",
         nombreMoto: "KTM RC8",
         comentario: "Gracias, muy bonita la moto",
         puntuacion: 5,
@@ -90,7 +90,7 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 44000,
       },
       {
-        uriImage: "/images/KTM RC8 NEGRA.png",
+        uriImage: "/images/KTM RC8 NEGRA.webp",
         nombreMoto: "KTM RC8",
         comentario: "Una moto muy buena y sobre todo económica",
         puntuacion: 5,
@@ -98,11 +98,19 @@ export const motorcycleData: IMotorcycle[] = [
         precioMootscale: 44000,
       },
       {
-        uriImage: "/images/BMW S1000RR NEGRA.png",
+        uriImage: "/images/BMW S1000RR NEGRA.webp",
         nombreMoto: "YAMAHA R1M",
         comentario: "La moto es hermosa, su color me encanta",
         puntuacion: 5,
         precioMercadoLibre: 110517,
         precioMootscale: 93658,
       },
+      {
+        uriImage: "/images/YAMAHA R1 NEGRA.webp",
+        nombreMoto: "YAMAHA R1M",
+        comentario: "La mejor moto que he tenido, es muy bonita",
+        puntuacion: 5,
+        precioMercadoLibre: 110517,
+        precioMootscale: 93658,
+      }
     ]

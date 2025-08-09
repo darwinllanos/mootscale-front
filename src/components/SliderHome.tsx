@@ -3,7 +3,7 @@ import React from "react";
 const slides = [
   {
     id: 1,
-    image: "/images/BMW S1000RR NEGRA.png",
+    image: "/images/BMW S1000RR NEGRA.webp",
     text: `Compra segura, precios competitivos, envío rápido.
     En MootScale encontrarás motos a escala 1:12, diseñadas con una calidad excepcional, a precios increíbles y con envíos seguros que garantizan la entrega de tu compra.
     Sorprende a esa persona especial con una réplica única que no solo será un juguete, sino también una fuente de inspiración y sueños para el futuro.
@@ -11,12 +11,12 @@ const slides = [
   },
   {
     id: 2,
-    image: "/images/KTM RC8 BLANCA.png",
+    image: "/images/KTM RC8 BLANCA.webp",
     text: 'Colaboracion con DarwinShein, "Tus retos de hoy seran los triunfos del manana, DarwinShein nos comparte: Tener una moto a escala en casa es más que un simple adorno. Es un símbolo de inspiración, un recordatorio diario de que los desafíos de hoy se convertirán en los triunfos de mañana Haz como DarwinShein: elige tu moto a escala y transforma un juego en un motor de sueños y metas cumplidas.',
   },
   {
     id: 3,
-    image: "/images/KAWASAKY NINJA 400.png",
+    image: "/images/KAWASAKY NINJA 400.webp",
     text: 'Quieres algo unico? Tambien personalizamos y disenamos tu moto con los colores y los detalles que elijas.'
   }
 ];

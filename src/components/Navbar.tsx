@@ -57,11 +57,12 @@ export const Navbar = () => {
             {isOpen && (
                 <div className="sm:hidden" id="mobile-menu">
                     <div className="space-y-1 px-2 pt-2 pb-3 text-center">
-                        <a href="#" className="block rounded-md bg-blue-500 px-3 py-2 text-base font-medium text-white">Inicio</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Ofertas</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Categorias</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Sobre Nosotros</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Contactanos</a>
+                        <Link to="/slider" className="block rounded-md bg-blue-500 px-3 py-2 text-base font-medium text-white">Inicio</Link>
+                        <Link to="" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Slider</Link>
+                        <Link to="" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Ofertas</Link>
+                        <Link to="" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Categorias</Link>
+                        <Link to="" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Sobre Nosotros</Link>
+                        <Link to="" className="block rounded-md px-3 py-2 text-base font-medium text-blue-500 hover:bg-blue-500 hover:text-white">Contactanos</Link>
                     </div>
                 </div>
             )}
