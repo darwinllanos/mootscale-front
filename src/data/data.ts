@@ -1,4 +1,4 @@
-import type { IMotorcycle } from "../interfaces/types"
+import type { IMotorcycle, IProductEcommerce } from "../interfaces/types"
 
 export const motorcycleData: IMotorcycle[] = [
       {
@@ -112,5 +112,145 @@ export const motorcycleData: IMotorcycle[] = [
         puntuacion: 5,
         precioMercadoLibre: 110517,
         precioMootscale: 93658,
+      }
+    ]
+
+    export const products: IProductEcommerce[] = [
+      {
+        id: 1,
+        name: "YAMAHA R1M",
+        price: "110517",
+        images: "/images/YAMAHA R1M.webp",
+        description: "La mejor moto que he tenido, es muy bonita",
+        category: "motos",
+        brand: "Yamaha",
+        stock: 10
+      },
+      {
+        id: 2,
+        name: "BMW S1000RR",
+        price: "110517",
+        images: "/images/BMW S1000RR.webp",
+        description: "La mejor moto que he tenido, es muy bonita",
+        category: "motos",
+        brand: "BMW",
+        stock: 10
+      },{
+        id: 3,
+        name: "KAWASAKY NINJA 400",
+        price: "104351",
+        images: "/images/KAWASAKY NINJA 400.webp",
+        description: "Me sorprendio el detalle de la moto, es muy bonita",
+        category: "motos",
+        brand: "Kawasaki",
+        stock: 10
+      },{
+        id: 4,
+        name: "Casco AGV",
+        price: "150000",
+        images: "/images/Casco AGV.webp",
+        description: "Casco de alta calidad para motociclistas",
+        category: "cascos",
+        brand: "AGV",
+        stock: 20
+      },{
+        id: 5,
+        name: "Casco Spartan",
+        price: "150000",
+        images: "/images/Casco Spartan.webp",
+        description: "Casco de alta calidad para motociclistas",
+        category: "cascos",
+        brand: "Spartan",
+        stock: 20
+      },{
+        id: 6,
+        name: "casco ich",
+        price: "2000",
+        images: "/images/casco ich.webp",
+        description: "Casco de alta calidad para motociclistas",
+        category: "cascos",
+        brand: "Ich",
+        stock: 20
+      },{
+        id: 7,
+        name: "Guantes de cuero",
+        price: "3000",
+        images: "/images/Guantes de cuero.webp",
+        description: "Guantes de cuero de alta calidad para motociclistas",
+        category: "accesorios",
+        brand: "Spartan",
+        stock: 20
+      },{
+        id: 8,
+        name: "Guantes de invierno",
+        price: "4000",
+        images: "/images/Guantes de invierno.webp",
+        description: "Guantes de invierno de alta calidad para motociclistas",
+        category: "accesorios",
+        brand: "Spartan",
+        stock: 20
+      },{
+        id: 9,
+        name: "Guantes de verano",
+        price: "2500",
+        images: "/images/Guantes de verano.webp",
+        description: "Guantes de verano de alta calidad para motociclistas",
+        category: "accesorios",
+        brand: "Spartan",
+        stock: 20
+      },{
+        id: 10,
+        name: "gopro hero 10",
+        price: "50000",
+        images: "/images/gopro hero 10.webp",
+        description: "Cámara de acción GoPro Hero 10",
+        category: "camaras",
+        brand: "GoPro",
+        stock: 15
+      },{
+        id: 11,
+        name: "gopro hero 9",
+        price: "40000",
+        images: "/images/gopro hero 9.webp",
+        description: "Cámara de acción GoPro Hero 9",
+        category: "camaras",
+        brand: "GoPro",
+        stock: 15
+      },{
+        id: 12,
+        name: "insta 360",
+        price: "60000",
+        images: "/images/insta 360.webp",
+        description: "Cámara de acción Insta 360",
+        category: "camaras",
+        brand: "Insta",
+        stock: 15
+      },{
+        id: 13,
+        name: "chaqueta cuerina",
+        price: "8000",
+        images: "/images/chaqueta cuerina.webp",
+        description: "Chaqueta de cuero de alta calidad para motociclistas",
+        category: "ropa",
+        brand: "Spartan",
+        stock: 20
+      },{
+        id: 14,
+        name: "chaqueta de cuero",
+        price: "12000",
+        images: "/images/chaqueta de cuero.webp",
+        description: "Chaqueta de cuero de alta calidad para motociclistas",
+        category: "ropa",
+        brand: "Spartan",
+        stock: 20
+      },{
+        id: 15,
+        name: "chaqueta textil",
+        price: "6000",
+        images: "/images/chaqueta textil.webp",
+        description: "Chaqueta textil de alta calidad para motociclistas",
+        category: "ropa",
+        brand: "Spartan",
+        stock: 20
       }
     ]

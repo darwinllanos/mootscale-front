@@ -17,3 +17,14 @@ export interface IMotorcycle {
     precioMercadoLibre: number;
     precioMootscale: number;
 }
+
+export interface IProductEcommerce {
+    id: number;
+    name: string;
+    price: string;
+    images: string[];
+    description: string;
+    category: string;
+    brand: string;
+    stock: number;
+}
