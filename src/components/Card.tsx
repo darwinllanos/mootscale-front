@@ -9,7 +9,7 @@ export const Card = ({ products }: { products: IProductEcommerce[] }) => {
             Productos
         </h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {
                 products.map((product, index) => (
                     <div key={index} className="group relative bg-gray-100 rounded-lg overflow-hidden">
@@ -27,8 +27,8 @@ export const Card = ({ products }: { products: IProductEcommerce[] }) => {
                             <h3 className="text-base font-medium text-gray-900">{product.name}</h3>
                             <p className="text-sm text-gray-500">{product.description}</p>
                         </div>
-                        <button type="button" className="mt-2 w-full bg-gray-100 py-2 px-4 text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500">
-                            La quiero
+                        <button type="button" className="mt-2 w-full bg-blue-500 py-2 px-4 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            Comprar!
                         </button>
                     </div>
                 ))

@@ -7,9 +7,9 @@ const SliderProduct: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    "/images/helmet.png",
-    "/images/gloves.png",
-    "/images/jacket.png",
+    "/images/cascosCategorias.png",
+    "/images/motosCategorias.png",
+    "/images/ropaCategorias.png",
     "/images/boots.png",
     "/images/bike_accessories.png",
   ];
