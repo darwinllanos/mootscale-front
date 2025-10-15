@@ -14,6 +14,8 @@ import CategoryComponent from './components/Category'
 import Footer from './components/Footer'
 import SliderProduct from './components/SliderProduct'
 import { motorcycleData } from './data/data'
+import { Hallowen } from './components/Hallowen'
+import { Whatsapp } from './components/Whatsapp'
 
 function App() {
   return (
@@ -31,6 +33,9 @@ function App() {
 
         <main>
           <section>
+            <Hallowen />
+          </section>
+          <section>
             <SliderHome />
           </section>
           <section>
@@ -42,6 +47,7 @@ function App() {
           <section>
             <Footer />
           </section>
+          <Whatsapp />
         </main>
     </>
   )

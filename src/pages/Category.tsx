@@ -9,13 +9,27 @@ const categorias: string[] = [
   "/icons/guante.webp",
   "/icons/moto.webp",
 ];
+
+const categories = [
+  { id: "todos", name: "Todos", icon: "🏠" },
+  { id: "tecnologia", name: "Tecnología", icon: "💻" },
+  { id: "deportes", name: "Deportes", icon: "⚽" },
+  { id: "comida", name: "Comida", icon: "🍕" },
+  { id: "viajes", name: "Viajes", icon: "✈️" },
+]
+
 const Category: React.FC = () => {
   const [searchTerm, setSearchTerm] = React.useState("");
   const [activeCategory, setActiveCategory] = React.useState("");
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Buscando Productos");
+    console.log("Buscando Productos", searchTerm);
+  };
+
+  const handleCategoryFilter = (categoryId: string) => {
+    setActiveCategory("1");
+    console.log("Filtrando por categoria:", categoryId);
   };
 
   return (
@@ -68,7 +82,19 @@ const Category: React.FC = () => {
         </div>
       </div>
 
-      <Card products={products} />
+      <div className="mt-8">
+          <div className="bg-card rounded-lg p-6 border">
+            <h3>
+              Resultados para: {" "}
+              {activeCategory === " " ? (
+                <span className="font-bold"><Card products={products} /></span>
+              ) : (
+                <span className="font-bold">Productos en la categoria: {categories.find((cat) => cat.id === activeCategory)?.name}</span>
+              )}
+            </h3>
+          </div>
+        </div>
+
     </div>
   );
 };
