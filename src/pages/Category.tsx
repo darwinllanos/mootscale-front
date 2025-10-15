@@ -27,10 +27,10 @@ const Category: React.FC = () => {
     console.log("Buscando Productos", searchTerm);
   };
 
-  const handleCategoryFilter = (categoryId: string) => {
-    setActiveCategory("1");
-    console.log("Filtrando por categoria:", categoryId);
-  };
+  // const handleCategoryFilter = (categoryId: string) => {
+  //   setActiveCategory("1");
+  //   console.log("Filtrando por categoria:", categoryId);
+  // };
 
   return (
     <div>

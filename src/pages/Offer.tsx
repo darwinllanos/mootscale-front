@@ -1,7 +1,7 @@
 import React from 'react';
 import AutoSlider from '../components/AutoSlider';
 import ProductCard from '../components/ProductCard';
-import { IProduct } from '../interfaces/types';
+import type { IProduct } from '../interfaces/types';
 
 const mainProducts: IProduct[] = [
     {

@@ -1,4 +1,4 @@
-import { IProduct } from "../interfaces/types"
+import type { IProduct } from "../interfaces/types"
 
 const ProductCard = ({ product, isLarge = false }: { product: IProduct; isLarge?: boolean }) => {
     return (
